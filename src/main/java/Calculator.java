@@ -1,4 +1,8 @@
-import java.io.IOException;
+/*
+В классе Calculator находятся переменные типа различных функциональных интерфейсов, для получения экземпляра класса и
+выполнения арифметических операций.
+ */
+
 import java.util.function.*;
 
 public class Calculator {
