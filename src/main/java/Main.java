@@ -9,7 +9,6 @@ public class Main {
             переменную devide класса Calculator так,чтобы была проверка на равенство 0 делимого, если делимое не равно
             0, то возвращаем значение, иначе выбрасываем исключение.
              */
-
             calc.println.accept(c);
         }
         catch (ArithmeticException e){
