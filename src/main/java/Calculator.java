@@ -11,10 +11,9 @@ public class Calculator {
     BinaryOperator<Integer> minus = (x, y) -> x - y;
     BinaryOperator<Integer> multiply = (x, y) -> x * y;
     BinaryOperator<Integer> devide = (x, y) -> {
-        try{
-            return x/y;
-        }
-        catch (Exception e){
+        try {
+            return x / y;
+        } catch (Exception e) {
             throw new ArithmeticException("Ошибка! На 0 делить нельзя");
         }
 
